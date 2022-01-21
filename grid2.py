@@ -1,8 +1,6 @@
 from tkinter import*
 from tkinter import ttk
 from tkinter.messagebox import *
-tunniplaan={}
-tunniplaan[tund]=kirjeldus
 tunn=Tk()
 def uus_aken(ind:int):
 	if akyesno("Küsimus","Kas teen lahti?"):
